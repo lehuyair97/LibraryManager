@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp">
+
+        <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:id="@+id/rlCallCard"
+        android:paddingBottom="12dp">
+
+
+        <TextView
+            android:id="@+id/tvNameMemberCC"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/time_new_roman"
+            android:text="Thành viên: Nguyễn Văn Nam"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvNameBookCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameMemberCC"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:fontFamily="@font/time_new_roman"
+            android:text="Tên sách: Think Grow Rich"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/tvDateInCC"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="68dp"
+            android:text="Ngày thuê: 09/09/2023"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvPriceCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDateInCC"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/time_new_roman"
+                android:text="Giá thuê: 30000"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvStatusCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@null"
+            android:text="Status: Đã trả"
+            android:textColor="#00FF94"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvIDCallCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/time_new_roman"
+            android:text=" No.1"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

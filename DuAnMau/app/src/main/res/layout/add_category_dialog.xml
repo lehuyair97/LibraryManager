@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="25dp"
+    android:paddingHorizontal="5dp"
+    android:background="@drawable/bottom_sheet_shape"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@drawable/dialogbg"
+        android:layout_marginHorizontal="146dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsaveAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/boder_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/time_new_roman"
+        android:text="Lưu"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCancleAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/boder_button"
+        android:fontFamily="@font/time_new_roman"
+        android:text="Hủy"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/time_new_roman"
+        android:paddingVertical="8dp"
+        android:text="Thêm"
+        android:textAlignment="viewStart"
+        android:textColor="@color/MainColorDuAnMau"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgCancleDialogAddCategory"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/cancle_icon" />
+
+    <ImageView
+        android:id="@+id/imgAddPictureCategory"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="75dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/add_image"
+        tools:srcCompat="@drawable/add_image" />
+
+    <EditText
+        android:id="@+id/edtAddcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="47dp"
+        android:textSize="16dp"
+        android:textColor="@color/MainColorDuAnMau"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập tên thể loại mới"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
+

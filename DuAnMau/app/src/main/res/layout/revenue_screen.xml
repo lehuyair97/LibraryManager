@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/MainColorDuAnMau"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvIn"
+            android:fontFamily="@font/time_new_roman"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Từ ngày: "/>
+        <EditText
+            android:textColor="#fff"
+            android:fontFamily="@font/time_new_roman"
+            android:textSize="15dp"
+            android:paddingLeft="15dp"
+            android:hint="yyyy/mm/dd"
+            android:textStyle="bold"
+            android:textColorHint="#FFEB3B"
+            android:id="@+id/edtIn"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/tvOut"
+            android:fontFamily="@font/time_new_roman"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_width="1dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Đến ngày: "/>
+        <EditText
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textColorHint="#FFEB3B"
+            android:fontFamily="@font/time_new_roman"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:hint="yyyy/mm/dd"
+            android:id="@+id/edtOut"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            />
+    </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Show"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/boder_button"
+            android:paddingHorizontal="26dp"
+            android:id="@+id/btnShowRevenue"/>
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="5dp">
+    <TextView
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#2ECB71"/>
+
+    <TextView
+        android:id="@+id/tvDataSelected"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Doanh thu từ :"
+        android:textColor="@color/white"
+        android:fontFamily="@font/time_new_roman"/>
+
+</LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginStart="5dp">
+      <TextView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="#F0C30F"/>
+          <TextView
+          android:id="@+id/tvDataRemain"
+          android:layout_marginLeft="10dp"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Doanh thu những ngày còn lại:"
+          android:textColor="@color/white"
+          android:fontFamily="@font/time_new_roman"/>
+
+  </LinearLayout>
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginStart="5dp">
+      <TextView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="#fff"/>
+      <TextView
+          android:id="@+id/tvTotal"
+          android:layout_marginLeft="10dp"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Tổng doanh thu: "
+          android:textColor="@color/white"
+          android:fontFamily="@font/time_new_roman"/>
+
+  </LinearLayout>
+
+</LinearLayout>

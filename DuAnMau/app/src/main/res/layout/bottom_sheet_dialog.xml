@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:theme="@style/ThemeOverlay.Material3.BottomSheetDialog"
+    android:background="@drawable/bottom_sheet_shape"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/dialogbg"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/time_new_roman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:text="Tùy Biến"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/cancle_icon"
+            android:layout_marginLeft="236dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/cancelButton"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lnFix"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:textColor="@color/black"
+
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/setting_icon"/>
+
+        <TextView
+            android:fontFamily="@font/time_new_roman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnDelete"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:textStyle="bold"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/trash_icon"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="@font/time_new_roman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+

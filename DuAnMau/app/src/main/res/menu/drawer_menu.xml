@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_CallCard"
+            android:icon="@drawable/ticket2"
+            android:title="Quản lý phiếu mượn"
+            />
+        <item
+            android:id="@+id/nav_Category"
+            android:icon="@drawable/books"
+            android:title="Quản lý loại sách"
+            />
+        <item
+            android:id="@+id/nav_Books"
+            android:icon="@drawable/book_32"
+            android:title="Quản lý sách"
+            />
+        <item
+            android:id="@+id/nav_Members"
+            android:icon="@drawable/group"
+            android:title="Quản lý thành viên"
+            />
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/nav_top"
+                    android:icon="@drawable/chart"
+                    android:title="Top 10 sách mượn nhiều nhất"
+                    />
+                <item
+                    android:id="@+id/nav_Revenue"
+                    android:icon="@drawable/bank_node"
+                    android:title="Doanh thu"/>
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/nav_Add"
+                    android:icon="@drawable/them"
+                    android:visible="false"
+                    android:title="Thêm người dùng"
+                    />
+                <item
+                    android:id="@+id/nav_ChangePW"
+                    android:icon="@drawable/key"
+                    android:title="Đổi mật khẩu"/>
+
+                <item
+                    android:id="@+id/nav_LogOut"
+                    android:icon="@drawable/logout"
+                    android:title="Đăng xuất"/>
+            </menu>
+
+        </item>
+
+
+
+    </group>
+</menu>

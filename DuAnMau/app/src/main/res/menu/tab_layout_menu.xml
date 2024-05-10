@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_CallCard1"
+        android:icon="@drawable/ticket2"
+        android:title="Call Card"
+        />
+    <item
+        android:id="@+id/nav_Category1"
+        android:icon="@drawable/books"
+        android:title="Category"
+        />
+    <item
+        android:id="@+id/nav_Books1"
+        android:icon="@drawable/book_32"
+        android:title="Books"
+        />
+    <item
+        android:id="@+id/nav_Members1"
+        android:icon="@drawable/group"
+        android:title="Members"
+        />
+</menu>

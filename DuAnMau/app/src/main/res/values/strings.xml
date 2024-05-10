@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DuAnMau</string>
+    <string name ="navtigation_drawer_open"> Open Navigation drawer</string>
+    <string name ="navtigation_drawer_close"> Close Navigation drawer</string>
+</resources>
